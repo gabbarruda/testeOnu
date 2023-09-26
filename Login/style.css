@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+
+
+section {
+     width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.div-imagem img {
+    height: auto;
+    margin-left: 100px;
+    width: 488px;
+    height: 170px;
+    margin-top: 300px;
+}
+
+
+.div-imagem {
+    width: 50%;
+    height: 100vh;
+    background-color: #B51D44;
+    display: flex;
+     
+}
+
+
+.logo {
+    width: 293px;
+    height: 51px;
+}
+
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+    
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+   
+    
+}
+
+input[type=email], input[type=password] {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.entrar {
+    width: 300px;
+    height: 40px;
+    background: #B51D44;
+    border: none;
+    margin-top: 50px;
+}
+
+
+
+
+.clica {
+    color: rgb(142, 155, 167);
+      top: 12px;
+    right: 15px;
+    align-items: end;
+    margin-left: 80px;
+    
+}
+
+
+
+
+
